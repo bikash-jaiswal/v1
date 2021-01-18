@@ -7,5 +7,19 @@ html {
 body {
   margin: 0;
   min-height: 100vh; /*stretch the height 100%*/
-  background-color: gray;
+  /* background-color: gray;/ */
+}
+
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover 
+{
+  
+   color:#00A0C6; 
+   text-decoration:none; 
+   cursor:pointer;  
 }
