@@ -34,10 +34,14 @@ a:hover {
 }
 
 .profile-link {
-    min-height: 80vh;
+    position: relative;
+    min-height: 100vh;
     background-color: tomato;
 }
 
-.footer {
+.footer-section {
+    position: absolute;
+    height: 10vh;
+    bottom: 0;
     background-color: rgba(0, 0, 0, 0.301);
 }
