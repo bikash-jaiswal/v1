@@ -1,25 +1,43 @@
-html {
-  /* padding will stretch the page 
+* {
+    /* padding will stretch the page 
     prevents from happening horizontal scroll bar*/
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  margin: 0;
-  min-height: 100vh; /*stretch the height 100%*/
-  /* background-color: gray;/ */
+    height: 100vh;
+    /*stretch the height 100%*/
+    /* background-color: gray;/ */
 }
 
 
 a {
-  color: whitesmoke;
-  text-decoration: none;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
-a:hover 
-{
-  
-   color:#00A0C6; 
-   text-decoration:none; 
-   cursor:pointer;  
+a:hover {
+    color: #00A0C6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.welcome-section {
+    min-height: 100vh;
+    background-color: teal;
+}
+
+.projects {
+    min-height: 100vh;
+    background-color: turquoise;
+}
+
+.profile-link {
+    min-height: 80vh;
+    background-color: tomato;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.301);
 }
